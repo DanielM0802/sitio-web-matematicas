@@ -1,5 +1,5 @@
 :root{
-    --celesteClaro: hsl(193, 38%, 86%);
+    --gris: hsl(189, 3%, 57%);
     --verdeNeon: hsl(150, 100%, 66%);
 }
 
@@ -14,7 +14,26 @@ html{
 
 body{
     font-size: 16px; /*transformar escala de 1rem a 10px*/
-    background-color: var(--azulOscuro);
+    background-color: var(--gris);
     font-family: 'Manrope', sans-serif;
     color: var(--celesteClaro);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tabla{
+    width: 100%;
+}
+
+.tabla tr{
+    display: flex;
+    justify-content: center; 
+    gap: 2rem;   
 }
