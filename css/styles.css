@@ -1,0 +1,20 @@
+:root{
+    --celesteClaro: hsl(193, 38%, 86%);
+    --verdeNeon: hsl(150, 100%, 66%);
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px; /*transformar escala de 1rem a 10px*/
+    background-color: var(--azulOscuro);
+    font-family: 'Manrope', sans-serif;
+    color: var(--celesteClaro);
+}
