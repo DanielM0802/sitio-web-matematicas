@@ -9,14 +9,11 @@ function iniciarApp(){
     const btnMultiplicacion = document.querySelector('#btn-multiplicacion');
     const btnDivision = document.querySelector('#btn-division');
     
-
+    //Creando un Evento
     btnSumar.addEventListener('click', sumar )
     btnRestar.addEventListener('click', restar )
-
-
-    console.log(btnSumar)
-
-
+    btnMultiplicacion.addEventListener('click',multiplicacion  )
+    btnDivision.addEventListener('click',division  )
 
 
 }
@@ -34,9 +31,30 @@ const sumar = () => {
 const restar = () => {
 
     const numeros = abrirPromts();
-
+    const num1 = numeros[0];
+    const num2 = numeros[1];
+    alert(num1 - num2)
 
 }
+
+const multiplicacion = () => {
+
+    const numeros = abrirPromts();
+    const num1 = numeros[0];
+    const num2 = numeros[1];
+    alert(num1 * num2)
+
+}
+
+const division = () => {
+
+    const numeros = abrirPromts();
+    const num1 = numeros[0];
+    const num2 = numeros[1];
+    alert(num1 / num2)
+
+}
+
 
 
 const abrirPromts = () => {
