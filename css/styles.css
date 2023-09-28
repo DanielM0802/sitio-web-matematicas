@@ -1,6 +1,7 @@
 :root{
     --gris: hsl(189, 3%, 57%);
-    --verdeNeon: hsl(150, 100%, 66%);
+    --azulClaro: hsl(207, 86%, 29%);
+    --verdeClaro: hsl(130, 86%, 30%);
 }
 
 html{
@@ -19,7 +20,7 @@ body{
     color: var(--celesteClaro);
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
     text-align: center;
 }
 
@@ -36,4 +37,12 @@ h1, h2, h3 {
     display: flex;
     justify-content: center; 
     gap: 2rem;   
+}
+
+.bg-azul-claro{
+    background-color: var(--azulClaro);
+}
+
+.bg-verde-claro{
+    background-color: var(--verdeClaro);
 }

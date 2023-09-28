@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', iniciarApp);
 
 function iniciarApp(){
 
+    //FORMA 1 DE CAPTURAR Y ASIGNAR EVENTOS A ELEMENTOS HTML
+    
     //Capturar los elementos html
     const btnSumar = document.querySelector('#btn-sumar');
     const btnRestar = document.querySelector('#btn-restar');
